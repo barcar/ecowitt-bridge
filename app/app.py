@@ -7,7 +7,7 @@ import threading
 from datetime import datetime
 from http.server import HTTPServer
 
-logging.basicConfig(level=logging.INFO,
+logging.basicConfig(level=logging.WARN,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 version = "0.8.0"
